@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F8F8F8"
+    tools:context=".Lunch">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="true"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_margin="8dp">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:nestedScrollingEnabled="false"
+                    android:id="@+id/lunchRecyclerView">
+                </android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/buttontabtwo"
+                android:backgroundTint="@color/colorBack"
+                android:background="@drawable/buttonborder"
+                android:textColor="@color/colorText"
+                android:text="Show more"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

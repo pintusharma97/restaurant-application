@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Mr.Chef</string>
+    <string name="title_activity_navigation">Mr.Chef</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mr. Chef - </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cafe_title">Beverages</string>
+    <string name="indian_title">Indian</string>
+    <string name="italian_title">Italian</string>
+    <string name="thai_title">Thai</string>
+    <string name="korean_title">Korean</string>
+    <string name="mexican_title">Mexican</string>
+    <string name="japanese_title">Japanese</string>
+    <string name="chinese_title">Chinese</string>
+    <string name="snack_title">Snacks</string>
+    <string name="indian_snack_title">Indian Snacks</string>
+    <string name="italian_snack_title">Italian Snacks</string>
+    <string name="chinese_snack_title">Chinese Snacks</string>
+    <string name="mexican_snack_title">Mexican Snacks</string>
+    <string name="japanese_snack_title">Japanese Snacks</string>
+    <string name="french_snack_title">French Snacks</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="order_basket_title">My Order Basket</string>
+    <string name="payment_title">Pay</string>
+
+    <string-array name="quantity">
+        <item>Qty</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="beverages_title">
+        <item>Non - alcholic</item>
+        <item>Alcoholic</item>
+    </string-array>
+
+    <string-array name="category_title">
+        <item>SNACKS</item>
+        <item>BEVERAGES</item>
+        <item>VEGETARIAN</item>
+        <item>NON VEG</item>
+        <item>PIZZA</item>
+        <item>SALAD</item>
+    </string-array>
+
+    <string-array name="menu_item">
+        <item>Dumplings</item>
+        <item>Spring Rolls</item>
+    </string-array>
+
+    <string-array name="cuisine_title">
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Korean</item>
+        <item>Mexican</item>
+        <item>Japanese</item>
+    </string-array>
+
+    <string-array name="cafeColor">
+        <item>@color/colorFlags</item>
+        <item>@color/colorText</item>
+        <item>@color/colorText</item>
+        <item>@color/colorFlags</item>
+    </string-array>
+
+    <string-array name="cafeTextColor">
+        <item>@color/colorText</item>
+        <item>@color/colorFlags</item>
+        <item>@color/colorFlags</item>
+        <item>@color/colorText</item>
+    </string-array>
+
+    <string-array name="indianCattegory">
+        <item>Breads</item>
+        <item>Curries</item>
+        <item>Desserts</item>
+        <item>Soups and Salads</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_main">NavigationActivityMain</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+</resources>

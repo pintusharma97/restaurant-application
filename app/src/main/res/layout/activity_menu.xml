@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".MenuActivity">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:nestedScrollingEnabled="false"
+        android:id="@+id/RecyclerViewTabMenu"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/colorText"
+            app:borderWidth="0dp"
+            android:clickable="true"
+            android:src="@drawable/ic_free_breakfast"
+            android:id="@+id/floating_cart"/>
+
+        <TextView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/drawable_circle"
+            android:backgroundTint="@color/colorText"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:elevation="16dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/counter_TextView"/>
+    </FrameLayout>
+</FrameLayout>

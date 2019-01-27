@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pintu_sharma97.com.mrchef">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mr_chef_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mr_chef_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".NavigationActivityMain"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Indian"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Snacks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndianSnacks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Checkout"
+            android:label="@string/checkout_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CuisineSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrderList"
+            android:label="@string/order_basket_title"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Payment"
+            android:screenOrientation="portrait"
+            android:label="@string/payment_title"></activity>
+    </application>
+
+</manifest>

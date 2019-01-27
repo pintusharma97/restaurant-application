@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:orientation="vertical"
+    android:background="@color/colorText"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/mr_chef_icon_round"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:gravity="start"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login to access the account"
+                android:textColor="#000000"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:background="@drawable/borderline"
+                android:layout_marginTop="10dp"
+                android:shadowColor="#F0F0F0"
+                android:textSize="16sp"
+                android:backgroundTint="@color/colorBack"
+                android:onClick="loginAccount"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+</LinearLayout>

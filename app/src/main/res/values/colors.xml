@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3E2723</color>
+    <color name="colorActionBar">#4E342E</color>
+    <color name="colorFlags">#3E2723</color>
+    <color name="colorBack">#4E342E</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextTwo">#FF000000</color>
+
+
+    <color name="colorLightSeaGreen">#20B2AA</color>
+    <color name="colorMediumPurple">#9370DB</color>
+    <color name="colorRed">#CD5555</color>
+    <color name="colorPivotVioletRed">#EE799F</color>
+</resources>
